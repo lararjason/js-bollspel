@@ -1,0 +1,24 @@
+
+Målet:
+Ett spel, där man på tid, måste klicka på en boll så många ggr som möjligt.
+Bollen ska flytta på sig efter varje klick.
+
+1. HTML 
+    Boll
+    Text: start, poängräknar och timer
+
+2. CSS
+    Bollen
+    Fixa så det ser snyggt ut
+    två states: av och på
+
+3 JS
+    Sätta på spelet, att klicka på start
+        klicka på Bollen
+            samla poäng
+            uppdatera scoreboarden
+            flytta på Bollen
+        timer
+        visa hur tid som är kvar
+
+    avsluta spelet

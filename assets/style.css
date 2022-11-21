@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Generell styling för sidan*/ 
+body {
+    background-color: rgb(244, 246, 109);
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* h1 i mitten-mitten, h2orna i vänstra hörnet eller i mitten */
+h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+}
+h2.center {
+    text-align: center;
+    color: #c00;
+}
+
+
+/* med border-radius 50% så kan div se rund ut */
+#ball {
+    display: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+/* när main är active(.gaming) så syns inte h1a men allt annat och viceversa */
+main.gaming h1 {
+    display: none;
+}
+
+main.gaming h2,
+main.gaming #ball {
+    display: block;
+}
