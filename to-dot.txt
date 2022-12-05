@@ -19,6 +19,18 @@ Bollen ska flytta på sig efter varje klick.
             uppdatera scoreboarden
             flytta på Bollen
         timer
-        visa hur tid som är kvar
+        visa hur mkt tid som är kvar
 
     avsluta spelet
+
+
+
+12 December
+To Do 
+X Stänger av timern
+X Uppmana att spela igen?
+- Flytta bollen oftare (kopplat till klockan)
+
+
+
+
